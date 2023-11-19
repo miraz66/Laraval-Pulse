@@ -15,6 +15,8 @@ export default function Home() {
       <div className="flex flex-col items-center justify-center">hekk</div>
       <div className="flex flex-col items-center justify-center">hekk</div>
       <div className="flex flex-col items-center justify-center">hekk</div>
+      <div className="flex flex-col items-center justify-center">hekk</div>
+      <div className="flex flex-col items-center justify-center">hekk</div>
     </main>
   )
 }
