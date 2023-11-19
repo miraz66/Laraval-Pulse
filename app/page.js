@@ -5,6 +5,8 @@ export default function Home() {
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
       <div className="flex flex-col items-center justify-center">hello</div>
       <div className="flex flex-col items-center justify-center">hekk</div>
+      <div className="flex flex-col items-center justify-center">hekk</div>
+      <div className="flex flex-col items-center justify-center">hekk</div>
     </main>
   )
 }
