@@ -48,7 +48,7 @@ export default function Headers() {
           </div>
         </div>
       </div> */}
-      {/* <div className="mt-10 relative overflow-hidden">
+      <div className="mt-10 relative overflow-hidden">
         <Image
           className="mx-auto z-20 relative"
           src={deshboardImage}
@@ -64,7 +64,7 @@ export default function Headers() {
           alt="Hero Background"
           className="absolute z-10 w-[45%] bottom-[-40%] -right-0 height-auto lg:-bottom-[64%] lg:h-[1126px] lg:w-[1055px] opacity-75"
         />
-      </div> */}
+      </div>
     </div>
   )
 }
