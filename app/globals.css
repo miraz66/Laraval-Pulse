@@ -3,25 +3,49 @@
 @tailwind utilities;
 
 :root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+  --background-primary-color: 3, 7, 18;
+  --background-secondary-color: 17, 24, 39;
+  --background-muted-color: 31, 41, 55;
+  --text-primary-color: 255, 255, 255;
+  --text-secondary-color: 229, 231, 235;
+  --text-muted-color: 209, 213, 219;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+@property --angle {
+  syntax: '<angle>';
+  initial-value: 0deg;
+  inherits: false;
 }
-
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  background: #000;
+  display: grid;
+  place-items: center;
+  min-height: 100vh;
+}
+.moving-border {
+  width: 200px;
+  height: 300px;
+  position: relative;
+  background: #111;
+  padding: 4px;
+}
+.moving-border::before,
+.moving-border::after {
+  content: '';
+  position: absolute;
+  inset: -0.2rem;
+  z-index: -1;
+  background: linear-gradient(var(--angle), #032146, #c3f2ff, #b00);
+  animation: rotate 10s linear infinite;
+}
+.moving-border::after {
+  filter: blur(10px);
+}
+@keyframes rotate {
+  0% {
+    --angle: 0deg;
+  }
+  100% {
+    --angle: 360deg;
+  }
 }

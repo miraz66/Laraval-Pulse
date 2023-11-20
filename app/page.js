@@ -1,55 +1,12 @@
-import Image from 'next/image'
+import { palseIcons } from '@/assets/Icon/Svg'
+import Features from '@/components/Features'
+import Headers from '@/components/Headers'
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <div className="flex flex-col items-center justify-center">hello</div>
-      <div className="flex flex-col items-center justify-center">hekk</div>
-      <div className="flex flex-col items-center justify-center">hekk</div>
-      <div className="flex flex-col items-center justify-center">hekk</div>
-      <div className="flex flex-col items-center justify-center">hekk</div>
-      <div className="flex flex-col items-center justify-center">hekk</div>
-      <div className="flex flex-col items-center justify-center">hekk</div>
-      <div className="flex flex-col items-center justify-center">hekk</div>
-      <div className="flex flex-col items-center justify-center">hekk</div>
-      <div className="flex flex-col items-center justify-center">hekk</div>
-      <div className="flex flex-col items-center justify-center">hekk</div>
-      <div className="flex flex-col items-center justify-center">hekk</div>
-      <div className="flex flex-col items-center justify-center">hekk</div>
-      <div className="flex flex-col items-center justify-center">hekk</div>
-      <div className="flex flex-col items-center justify-center">hekk</div>
-      <div className="flex flex-col items-center justify-center">hekk</div>
-      <div className="flex flex-col items-center justify-center">hekk</div>
-      <div className="flex flex-col items-center justify-center">hekk</div>
-      <div className="flex flex-col items-center justify-center">hekk</div>
-      <div className="flex flex-col items-center justify-center">hekk</div>
-
-      <div className="flex flex-col items-center justify-center">hekk</div>
-      <div className="flex flex-col items-center justify-center">hekk</div>
-      <div className="flex flex-col items-center justify-center">hekk</div>
-      <div className="flex flex-col items-center justify-center">hekk</div>
-      <div className="flex flex-col items-center justify-center">hekk</div>
-      <div className="flex flex-col items-center justify-center">hekk</div>
-      <div className="flex flex-col items-center justify-center">hekk</div>
-      <div className="flex flex-col items-center justify-center">hekk</div>
-      <div className="flex flex-col items-center justify-center">hekk</div>
-      <div className="flex flex-col items-center justify-center">hekk</div>
-      <div className="flex flex-col items-center justify-center">hekk</div>
-      <div className="flex flex-col items-center justify-center">hekk</div>
-      <div className="flex flex-col items-center justify-center">hekk</div>
-      <div className="flex flex-col items-center justify-center">hekk</div>
-      <div className="flex flex-col items-center justify-center">hekk</div>
-      <div className="flex flex-col items-center justify-center">hekk</div>
-      <div className="flex flex-col items-center justify-center">hekk</div>
-      <div className="flex flex-col items-center justify-center">hekk</div>
-      <div className="flex flex-col items-center justify-center">hekk</div>
-      <div className="flex flex-col items-center justify-center">hekk</div>
-      <div className="flex flex-col items-center justify-center">hekk</div>
-      <div className="flex flex-col items-center justify-center">hekk</div>
-      <div className="flex flex-col items-center justify-center">hekk</div>
-      <div className="flex flex-col items-center justify-center">hekk</div>
-      <div className="flex flex-col items-center justify-center">hekk</div>
-      <div className="flex flex-col items-center justify-center">hekk</div>
+    <main className="bg-primary min-h-screen font-sans">
+      <Headers />
+      <Features />
     </main>
   )
 }
