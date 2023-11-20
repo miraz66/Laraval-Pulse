@@ -6,10 +6,10 @@ import heroBackground from '@/assets/hero-background.png'
 export default function Headers() {
   return (
     <div>
-      {/* <div
+      <div
         aria-hidden
         className="h-[3px] bg-gradient-to-r from-rose-500 to-purple-500"
-      ></div> */}
+      ></div>
       <div className="mx-auto max-w-7xl">
         <a
           href="/"
