@@ -1,4 +1,3 @@
-import { palseIcons } from '@/assets/Icon/Svg'
 import Features from '@/components/Features'
 import Headers from '@/components/Headers'
 

@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background-primary-color: 3, 7, 18;
+  --background-secondary-color: 17, 24, 39;
+  --background-muted-color: 31, 41, 55;
+  --text-primary-color: 255, 255, 255;
+  --text-secondary-color: 229, 231, 235;
+  --text-muted-color: 209, 213, 219;
+}
