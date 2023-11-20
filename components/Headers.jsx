@@ -6,11 +6,11 @@ import heroBackground from '@/assets/hero-background.png'
 export default function Headers() {
   return (
     <div>
-      <div
+      {/* <div
         aria-hidden
         className="h-[3px] bg-gradient-to-r from-rose-500 to-purple-500"
-      ></div>
-      <div className="mx-auto max-w-7xl">
+      ></div> */}
+      {/* <div className="mx-auto max-w-7xl">
         <a
           href="/"
           className="inline-flex items-center gap-2.5 py-10 focus:outline-none focus-visible:ring-2 focus-visible:ring-[#BD92F5] focus-visible:ring-offset-2 focus-visible:ring-offset-black"
@@ -47,8 +47,8 @@ export default function Headers() {
             </div>
           </div>
         </div>
-      </div>
-      <div className="mt-10 relative overflow-hidden">
+      </div> */}
+      {/* <div className="mt-10 relative overflow-hidden">
         <Image
           className="mx-auto z-20 relative"
           src={deshboardImage}
@@ -64,7 +64,7 @@ export default function Headers() {
           alt="Hero Background"
           className="absolute z-10 w-[45%] bottom-[-40%] -right-0 height-auto lg:-bottom-[64%] lg:h-[1126px] lg:w-[1055px] opacity-75"
         />
-      </div>
+      </div> */}
     </div>
   )
 }
