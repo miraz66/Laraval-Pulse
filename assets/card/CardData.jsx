@@ -41,7 +41,7 @@ export const Data = [
     key={5}
     label="Trending Exceptions"
     cardTypes="purple-card"
-    description="Get an overview of the exceptions happening in your application. Having your exceptions side-by-side with your application's complete health overview helps you find anomalies across your whole stack."
+    description="Get an overview of the exceptions happening in your application. Having your exceptions side-by-side with your application's complete health overview helps."
     images={TrendingImages}
   />,
   <ExtensionCard
