@@ -14,7 +14,7 @@ export default function Features() {
           Free, open source, and ready for extension.
         </h1>
 
-        <div className="space-y-24 pt-20 lg:px-16">
+        <div className="space-y-24 px-8 pt-20 lg:px-16">
           {Data.map((card) => {
             return card
           })}

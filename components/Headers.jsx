@@ -50,7 +50,7 @@ export default function Headers() {
       </div>
       <div className="relative mt-10 overflow-hidden">
         <Image
-          className="relative z-20 mx-auto max-w-sm md:max-w-[45rem] lg:max-w-[62rem] xl:max-w-[87rem] 2xl:max-w-[110rem]"
+          className="relative z-20 mx-auto max-w-sm px-8 md:max-w-[45rem] lg:max-w-[62rem] xl:max-w-[87rem] 2xl:max-w-[110rem]"
           src={deshboardImage}
           alt="Picture of the deshbord"
           height="auto"
