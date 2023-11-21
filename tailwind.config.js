@@ -1,3 +1,4 @@
+import defaultTheme from 'tailwindcss/defaultTheme'
 function withOpacity(variableName) {
   return ({ opacityValue }) => {
     if (opacityValue !== undefined) {
@@ -17,6 +18,14 @@ module.exports = {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        sans: ['Satoshi', ...defaultTheme.fontFamily.sans],
+      },
+      spacing: {
+        18: '4.5rem',
+        112: '28rem',
+        120: '30rem',
+      },
       backgroundColor: {
         primary: withOpacity('--background-primary-color'),
         secondary: withOpacity('--background-secondary-color'),

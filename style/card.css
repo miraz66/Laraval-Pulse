@@ -1,6 +1,8 @@
 :root {
   --clr-1: #a855f7;
   --clr-2: #f43f5e;
+  --clr-3: #5df43f;
+  --clr-4: #fdf908;
 }
 
 @property --gradient-angle {
@@ -19,7 +21,7 @@
     var(--clr-1),
     var(--clr-1),
     var(--clr-1),
-    var(--clr-2)
+    var(--clr-4)
   );
   border-radius: inherit;
   animation: rotation 15s linear infinite;
@@ -37,7 +39,7 @@
     var(--clr-2),
     var(--clr-2),
     var(--clr-2),
-    var(--clr-1)
+    var(--clr-3)
   );
   border-radius: inherit;
   animation: rotation 20s linear infinite;
